@@ -59,3 +59,4 @@ public Attrezzatura selectAttrezzatura(int id){
 }
 
 }
+//checkin e chekcout o minori del checkin o maggiori del chekcout per rendere possibile la prenotazione

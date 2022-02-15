@@ -13,6 +13,12 @@ import java.util.Date;
 import java.util.List;
 
 
+//stesso vale per prentoazione
+//checkin e chekcout o minori del checkin o maggiori del chekcout per rendere possibile la prenotazione, <=/>=0 con mezza giornata(flag inizioMattina)
+//metodi di pagamento sempre giusto
+//check-inAtMorning
+//onetomany transazioni con tabelle idtransizioneidprenot/idtransidordinaz
+
 @Component
 public class PrenotazioneService {
     @Autowired

@@ -4,7 +4,7 @@ package it.unicam.ids.tranquillo.entities;
 import javax.persistence.*;
 import java.util.Date;
 
-
+//checkin e chekcout o minori del checkin o maggiori del chekcout per rendere possibile la prenotazione
 @Entity
 @Table(name="prenotazione")
 public class Prenotazione {
